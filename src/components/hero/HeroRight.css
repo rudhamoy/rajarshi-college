@@ -1,0 +1,65 @@
+.heroRight__container {
+  display: flex;
+  margin-left: 70px;
+}
+
+.heroRight__course {
+  display: flex;
+}
+
+.heroRight__cardTop {
+  /* display: flex;
+  justify-content: space-around; */
+  justify-items: left;
+}
+
+.heroRight__card1 {
+  text-align: left;
+  background: white;
+  height: 240px;
+  width: 520px;
+  display: flex;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.heroRight__card2 {
+  margin-top: 35px;
+  margin-left: 28px;
+  text-align: left;
+  background: white;
+  height: 240px;
+  width: 500px;
+  display: flex;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.heroRight__cardBottom {
+  margin-left: 40px;
+}
+
+.heroRight__card3,
+.heroRight__card4 {
+  background: white;
+  width: 480px;
+  border-radius: 7px;
+  display: flex;
+}
+
+.heroRight__card3 {
+  margin-bottom: 35px;
+  height: 200px;
+}
+
+.heroRight__card4 {
+  height: 250px;
+}
+
+.card1 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+  text-align: center;
+  padding: 3%;
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "0",
+        "title": "Mathematics",
+        "category": "bschons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "1",
+        "title": "Physics",
+        "category": "bschons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "2",
+        "title": "Chemistry",
+        "category": "bschons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "3",
+        "title": "Physics",
+        "category": "bscpass",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "4",
+        "title": "Chemistry",
+        "category": "bscpass",
+        "detail":"Add some snippet of details here"
+    },
+    {
+        "id": "5",
+        "title": "Mathematics",
+        "category": "bscpass",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "6",
+        "title": "English",
+        "category": "bahons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "7",
+        "title": "Education",
+        "category": "bahons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "8",
+        "title": "Political Science",
+        "category": "bahons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "9",
+        "title": "History",
+        "category": "bahons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "10",
+        "title": "Philosophy",
+        "category": "bahons",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "11",
+        "title": "English",
+        "category": "bapass",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "12",
+        "title": "Education",
+        "category": "bapass",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "13",
+        "title": "Political Science",
+        "category": "bapass",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "14",
+        "title": "History",
+        "category": "bapass",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "15",
+        "title": "Philosophy",
+        "category": "bapass",
+        "detail": "Add some snippet of details here"
+    }
+]

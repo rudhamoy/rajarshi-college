@@ -1,0 +1,46 @@
+/* .news__container {
+  width: 500px;
+} */
+
+.news__header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  color: white !important;
+  /* background: red; */
+  padding: 0 10%;
+}
+
+.news__header > p {
+  margin-right: 130px;
+  cursor: pointer;
+}
+
+.news__content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.newsEvent__carousel {
+  width: 500px;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 767px) {
+  .news__header {
+    padding: unset;
+  }
+
+  .news__header > p {
+    margin-right: unset;
+  }
+
+  .newsEvent__carousel {
+    width: 320px;
+    height: 250px;
+  }
+}

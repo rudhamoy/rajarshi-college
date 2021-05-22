@@ -1,0 +1,28 @@
+.singup__container {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.signup__formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 420px;
+  width: 400px;
+  background: white;
+  margin: 40px;
+}
+.singup__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singup__form > input {
+  margin: 15px;
+  height: 40px;
+  width: 300px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+.cardEvent__container {
+  width: 370px;
+  height: 340px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 767px) {
+  .cardEvent__container {
+    width: auto;
+    /* width: 260px; */
+    height: 300px;
+  }
+}

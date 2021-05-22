@@ -1,0 +1,34 @@
+.instruction__container {
+  padding: 5% 15%;
+  text-align: left;
+}
+
+.instruction__container > h1 {
+  margin-bottom: 100px;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.instruction__bank {
+  margin: 4% 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.instruction__bank > p > span {
+  font-weight: bold;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 767px) {
+  .instruction__container {
+    padding: 5% 10%;
+    text-align: left;
+  }
+  .instruction__container > h1 {
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+}

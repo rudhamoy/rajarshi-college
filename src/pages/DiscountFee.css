@@ -1,0 +1,32 @@
+.discountFee {
+  padding: 5%;
+}
+
+.discountFee__tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 767px) {
+  .discountFee {
+    padding: 6%;
+  }
+
+  .discountFee > h1 {
+    font-size: 18px;
+  }
+
+  .discountFee__tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    overflow-x: scroll;
+  }
+}

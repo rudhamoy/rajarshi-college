@@ -1,0 +1,20 @@
+.subfooter {
+  display: flex;
+  justify-content: space-between;
+  background: #023;
+  color: white;
+  line-height: 50px;
+}
+
+.subfooter__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MOBILE RESPONSIVE dESIGN */
+@media screen and (max-width: 767px) {
+  .subfooter {
+    flex-direction: column;
+  }
+}

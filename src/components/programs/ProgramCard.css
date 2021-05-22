@@ -1,0 +1,52 @@
+.programCard__container {
+  width: 250px;
+  height: 170px;
+  border-radius: 7px;
+  margin: 30px;
+  /* background-color: "#fff"; */
+}
+
+.programList_cat {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20%;
+}
+
+.programList_cat > div {
+  margin: 5px;
+  background: "white";
+  padding: 20px;
+  cursor: pointer;
+}
+
+.programHead__container {
+  margin: 4% 20%;
+}
+
+.programHead__content > h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.programHead__content > p {
+  margin-top: -30px;
+}
+
+/* MOBILE RESPONSIVE DESIGNS */
+
+@media screen and (max-width: 767px) {
+  .programHead__container {
+    margin: 4% 10%;
+  }
+
+  .programHead__content > h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .programHead__content > p {
+    margin-top: -10px;
+  }
+}

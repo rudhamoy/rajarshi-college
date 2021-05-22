@@ -1,0 +1,112 @@
+.mainHero__container {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.main {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  min-height: 600px;
+}
+
+.mainHero__left {
+  flex: 0.55;
+}
+
+.mainHero__right {
+  flex: 0.45;
+  margin-top: 180px;
+  margin-left: 50px;
+}
+
+.mainHero__extra {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.extra__card {
+  background: rgba(90, 92, 133, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  height: 200px;
+  width: 320px;
+  border-radius: 8px;
+}
+
+.extra__card:hover {
+  transform: scale(1.1);
+  transition: ease-in 25ms;
+  box-shadow: 0 8px 20px 0px rgba(211, 211, 211, 0.329);
+}
+
+.hero--fadedBottom {
+  height: 10rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(10, 1, 31, 0.61),
+    rgb(5, 4, 26)
+  );
+}
+
+.extra__card_title {
+  border-bottom: 1px solid lightslategrey;
+  line-height: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.extra__card__deatils {
+  padding: 13px;
+  margin-top: -10px;
+}
+
+.extra__card__action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 767px) {
+  .mainHero__left {
+    flex: unset;
+  }
+
+  .mainHero__extra {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .extra__card {
+    height: 185px;
+    width: 80vw;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .extra__card:hover {
+    display: none;
+  }
+
+  .extra__card_title {
+    line-height: 35px;
+    font-size: 17px;
+    padding-left: 10px;
+  }
+
+  .extra__card__action {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    margin-left: 12px;
+  }
+}

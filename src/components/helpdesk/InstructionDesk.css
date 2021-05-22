@@ -1,0 +1,20 @@
+.instructionDesk {
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+}
+
+.instructionDesk__details {
+  margin: 0 10%;
+  padding: 5%;
+  text-align: left;
+  border-top: 1px solid black;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 767px) {
+  .instructionDesk__details {
+    margin: 0 6%;
+  }
+}

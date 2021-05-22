@@ -1,0 +1,33 @@
+.contactLeft {
+  background: #373f6e;
+  width: 330px;
+  height: 330px;
+  margin-right: -90px;
+  z-index: 99;
+}
+
+.contactLeft__detail {
+  color: lightgrey !important;
+  display: flex;
+  padding: 10px;
+  text-align: left;
+}
+.contactLeft__detail > p {
+  margin-left: 10px;
+}
+
+.contactLeft__icon {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/* MOBILE RESPONSIVE DESIGNS */
+
+@media screen and (max-width: 767px) {
+  .contactLeft {
+    width: 340px;
+    height: 340px;
+    margin-right: unset;
+    z-index: 99;
+  }
+}

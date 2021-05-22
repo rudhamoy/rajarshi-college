@@ -1,0 +1,9 @@
+.trustee__tableContainer {
+  margin: 5%;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+.trustee__tableContainer {
+  overflow-x: scroll;
+}

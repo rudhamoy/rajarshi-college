@@ -1,0 +1,25 @@
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 6% 9%;
+  background-color: #444;
+}
+
+/* MOBILE RESPONSIVE DESING */
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .middleFooter {
+    border-top: 0.1px solid gray;
+    margin-top: 10px;
+  }
+
+  .rightFooter {
+    width: 90%;
+    border-top: 0.1px solid gray;
+    margin-top: 10px;
+  }
+}

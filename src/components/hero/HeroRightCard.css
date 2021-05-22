@@ -1,0 +1,6 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 7px;
+  text-align: left;
+}

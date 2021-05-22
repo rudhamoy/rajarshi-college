@@ -1,0 +1,17 @@
+.noticeDetail__container {
+  padding: 5% 15%;
+  text-align: left;
+}
+
+.noticeDetail__title {
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+/* Mobile responsive design */
+
+@media screen and (max-width: 767px) {
+  .noticeDetail__container {
+    padding: 5% 10%;
+  }
+}

@@ -1,0 +1,16 @@
+.contact {
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* MOBILE RESPONSIVE DESIGNS */
+
+@media screen and (max-width: 767px) {
+  .contact {
+    flex-direction: column;
+    height: 100%;
+  }
+}
