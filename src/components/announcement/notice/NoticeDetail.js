@@ -2,13 +2,12 @@ import React, { useEffect } from "react";
 import "./NoticeDetail.css";
 import { useDispatch, useSelector } from "react-redux";
 import { listNoticeDetail } from "../../../actions/noticeActions";
-import { useParams } from "react-router-dom";
 
 const NoticeDetail = ({ match }) => {
   const dispatch = useDispatch();
 
   const noticeDetails = useSelector((state) => state.noticeDetail);
-  const { loading, notice, error } = noticeDetails;
+  const { loading, notice } = noticeDetails;
 
   useEffect(() => {
     dispatch(listNoticeDetail(match.params.id));

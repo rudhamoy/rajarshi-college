@@ -1,6 +1,5 @@
 import React from "react";
 import "./MainAnnounce.css";
-import NewsEvent from "./newsEvent/NewsEvent";
 import NewsEventTest from "./newsEvent/NewsEventTest";
 import Notice from "./notice/Notice";
 

@@ -10,14 +10,12 @@ const Notice = () => {
 
   const noticeList = useSelector((state) => state.noticeList);
 
-  const { loading, notices, error } = noticeList;
-  console.log(noticeList);
+  const { notices } = noticeList;
 
   useEffect(() => {
     dispatch(listNotice());
   }, [dispatch]);
 
-  console.log(notices);
   return (
     <div className="notice">
       <div className="notice__container">

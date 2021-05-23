@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { Button } from "antd";
 import { auth } from "../../firebase";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -54,7 +53,7 @@ const RegisterComplete = () => {
 
         let user = auth.currentUser;
         await user.updatePassword(password);
-        const idTokenResult = await user.getIdTokenResult;
+        // const idTokenResult = await user.getIdTokenResult;
 
         history.push("/");
       }

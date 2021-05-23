@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroCarousel.css";
-import { Carousel, Image } from "antd";
+import { Carousel } from "antd";
 import HeroLeft from "./HeroLeft";
 
 const HeroCarousel = () => {

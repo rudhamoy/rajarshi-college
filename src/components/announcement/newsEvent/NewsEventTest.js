@@ -40,8 +40,6 @@ const NewsEvent = () => {
     return fetchData();
   }, []);
 
-  console.log(eventLists);
-
   return (
     <div className="news__container">
       <div className="news__header">
@@ -57,7 +55,7 @@ const NewsEvent = () => {
       <div className="news__content">
         <Carousel className="newsEvent__carousel" autoplay dots={false}>
           {eventLists.map((news) => (
-            <Link to={`/newsevent/${news.id}`}>
+            <Link key={news.id} to={`/newsevent/${news.id}`}>
               <div key={news.id}>
                 <CardEvent title={news.title} description={news.content} />
               </div>

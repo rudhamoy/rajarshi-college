@@ -1,5 +1,4 @@
 import React from "react";
-import HelpDesk from "../../pages/HelpDesk";
 import ContainerCard from "./ContainerCard";
 
 const helpDesk = require("../../data/helpDesk.json");

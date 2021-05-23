@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image } from "antd";
+import { Card } from "antd";
 import "./CardEvent.css";
 
 const { Meta } = Card;

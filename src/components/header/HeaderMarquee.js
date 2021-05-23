@@ -29,9 +29,9 @@ const HeaderMarquee = () => {
     <div style={{ marginTop: "5px" }}>
       {noticeFeat.map((notice) =>
         notice.is_featured === "True" ? (
-          <Marquee pauseOnHover speed={30} gradient={false}>
+          <Marquee pauseOnHover speed={30} gradient={false} key={notice.id}>
             <Link to={`/noticedetail/${notice.id}/`} style={{ color: "white" }}>
-              <p className="marquee__title">{notice.title} </p>
+              <p className="marquee__title">{notice.title}</p>
             </Link>
           </Marquee>
         ) : null

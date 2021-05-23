@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "./MainHero.css";
-import HeroLeft from "./HeroLeft";
 import { ArrowRightOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import HeroCarousel from "./HeroCarousel";

@@ -3,7 +3,6 @@ import "./FooterMain.css";
 import LeftFooter from "./LeftFooter";
 import MiddleFooter from "./MiddleFooter";
 import RightFooter from "./RightFooter";
-import SubFooter from "./SubFooter";
 
 const FooterMain = () => {
   return (
