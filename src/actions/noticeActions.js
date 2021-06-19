@@ -13,13 +13,11 @@ export const listNotice = () => async (dispatch) => {
   try {
     dispatch({ type: NOTICE_LIST_REQUEST });
 
-    const token = "1ec938106f39d6172fb57e36fa23c0d0432c40f6";
-
     const { data } = await axios.get(
-      "https://nicksdb.pythonanywhere.com/api/notice_list/",
+      "https://rajarshi-college.herokuapp.com/api/notice_list/",
       {
         headers: {
-          Authorization: `Token ${token}`,
+          Authorization: `Token ${process.env.REACT_APP_AUTH_TOKEN}`,
         },
       }
     );
@@ -44,7 +42,7 @@ export const listNoticeDetail = (id) => async (dispatch) => {
     dispatch({ type: NOTICE_DETAIL_REQUEST });
 
     const { data } = await axios.get(
-      `https://nicksdb.pythonanywhere.com/api/notice_list/${id}/`,
+      `https://rajarshi-college.herokuapp.com/api/notice_list/${id}/`,
       {
         headers: {
           Authorization: `Token ${process.env.REACT_APP_AUTH_TOKEN}`,

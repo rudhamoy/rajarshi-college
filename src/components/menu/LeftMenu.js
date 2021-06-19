@@ -15,8 +15,9 @@ const LeftMenu = ({ handleClick, current }) => {
       style={{
         backgroundColor: "#373f6e",
         color: "#fff",
-        // display: "flex",
-        // justifyContent: "center",
+        textTransform: "uppercase",
+        fontSize: "12px",
+        fontWeight: "bold",
       }}
     >
       <Menu.Item key="home">

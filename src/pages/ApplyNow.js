@@ -1,16 +1,10 @@
 import React from "react";
-import SingUp from "./SingUp";
+import MultiStepForm from "../components/Registration/MultiStepForm";
 
 const ApplyNow = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        backgroundColor: "darkslategrey",
-      }}
-    >
-      <SingUp />
+    <div>
+      <MultiStepForm />
     </div>
   );
 };

@@ -25,11 +25,12 @@ const NewsEvent = () => {
     //   });
 
     const fetchData = async () => {
+      const token = "1ec938106f39d6172fb57e36fa23c0d0432c40f6";
       const { data } = await axios.get(
         "https://nicksdb.pythonanywhere.com/api/event_list/",
         {
           headers: {
-            Authorization: `Token ${process.env.REACT_APP_AUTH_TOKEN}`,
+            Authorization: `Token ${token}`,
           },
         }
       );

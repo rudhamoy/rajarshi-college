@@ -29,7 +29,7 @@ const MainMenu = () => {
     <nav className="menuBar" style={{ backgroundColor: "#373f6e" }}>
       <div className="logo">
         <Link to="/">
-          <Image src="/images/logo-nik.png" width="80%" preview={false} />
+          <Image src="/images/rces-logo2.png"  width="210px" preview={false} />
         </Link>
       </div>
       <div className="menuCon">

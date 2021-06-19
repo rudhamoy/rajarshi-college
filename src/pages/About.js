@@ -2,7 +2,7 @@ import React from "react";
 import { Tabs } from "antd";
 import Trustee from "../components/about/Trustee";
 import Governing from "../components/about/Governing";
-import Faculty from "../components/about/Faculty";
+import FacultyMobile from "../components/about/FacultyMobile";
 
 const { TabPane } = Tabs;
 
@@ -24,7 +24,7 @@ const About = () => {
             <Governing />
           </TabPane>
           <TabPane tab="Faculty Member" key="3">
-            <Faculty />
+            <FacultyMobile />
           </TabPane>
         </Tabs>
       </div>

@@ -1,19 +1,17 @@
 @import "~antd/dist/antd.css";
 
 .menuBar {
-  padding: 5px 20px;
+  /* padding: 2px 0; */
   border-bottom: solid 1px #e8e8e8;
-  overflow: auto;
+  overflow: hidden;
   display: flex;
   align-items: center;
 }
 
 .logo {
-  /* width: 150px; */
   float: left;
-  /* background: cornsilk;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%; */
+  margin-top: -8px;
+  margin-left: -1px;
 }
 
 /* .logo a {

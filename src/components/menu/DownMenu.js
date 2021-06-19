@@ -54,10 +54,14 @@ const DownMenu = ({ handleClick, current }) => {
           style={{ backgroundColor: "#373f6e", color: "#fff" }}
         >
           <Menu.Item key="setting:2" icon={<UserOutlined />}>
-            <Link to="/login">Login</Link>
+            <Link to="/login" style={{ color: "white" }}>
+              Login
+            </Link>
           </Menu.Item>
           <Menu.Item key="setting:3" icon={<UserAddOutlined />}>
-            <Link to="/register">Register</Link>
+            <Link to="/register" style={{ color: "white" }}>
+              Register
+            </Link>
           </Menu.Item>
         </Menu>
       )}

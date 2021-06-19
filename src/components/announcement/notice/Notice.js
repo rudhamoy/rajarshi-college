@@ -21,10 +21,7 @@ const Notice = () => {
       <div className="notice__container">
         <List
           itemLayout="horizontal"
-          style={{
-            padding: "10px",
-            textAlign: "left",
-          }}
+          className="notice__list"
           dataSource={notices}
           renderItem={(item) => (
             <Link to={`/noticedetail/${item.id}`}>

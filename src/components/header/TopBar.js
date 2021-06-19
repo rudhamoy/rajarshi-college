@@ -3,6 +3,7 @@ import "./TopBar.css";
 import HeaderMarquee from "./HeaderMarquee";
 import HeaderLogin from "./HeaderLogin";
 import HeaderInfo from "./HeaderInfo";
+import { Link } from "react-router-dom";
 
 const TopBar = () => {
   return (
@@ -20,8 +21,10 @@ const TopBar = () => {
           <HeaderInfo />
         </div>
         <div>
-          <p className="action" style={{ color: "white" }}>
-            Apply Now
+          <p className="action">
+            <Link to="/apply" style={{ color: "white" }}>
+              Apply Now
+            </Link>
           </p>
         </div>
         <div className="headerLogin">
