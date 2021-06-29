@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./NewsEvent.css";
 import { Carousel } from "antd";
 import CardEvent from "./CardEvent";

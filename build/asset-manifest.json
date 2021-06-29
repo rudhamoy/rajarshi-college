@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7093097.chunk.css",
+    "main.js": "/static/js/main.8a47e47f.chunk.js",
+    "main.js.map": "/static/js/main.8a47e47f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f091cde7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f091cde7.js.map",
+    "static/css/2.08976d14.chunk.css": "/static/css/2.08976d14.chunk.css",
+    "static/js/2.2f154e5d.chunk.js": "/static/js/2.2f154e5d.chunk.js",
+    "static/js/2.2f154e5d.chunk.js.map": "/static/js/2.2f154e5d.chunk.js.map",
+    "static/js/3.23eb1d50.chunk.js": "/static/js/3.23eb1d50.chunk.js",
+    "static/js/3.23eb1d50.chunk.js.map": "/static/js/3.23eb1d50.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.08976d14.chunk.css.map": "/static/css/2.08976d14.chunk.css.map",
+    "static/css/main.d7093097.chunk.css.map": "/static/css/main.d7093097.chunk.css.map",
+    "static/js/2.2f154e5d.chunk.js.LICENSE.txt": "/static/js/2.2f154e5d.chunk.js.LICENSE.txt",
+    "static/media/UploadIcon.svg": "/static/media/UploadIcon.469126df.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f091cde7.js",
+    "static/css/2.08976d14.chunk.css",
+    "static/js/2.2f154e5d.chunk.js",
+    "static/css/main.d7093097.chunk.css",
+    "static/js/main.8a47e47f.chunk.js"
+  ]
+}
