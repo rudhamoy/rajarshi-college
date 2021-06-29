@@ -6,7 +6,7 @@ const helpDesk = require("../../data/helpDesk.json");
 const ApprovedHelpDesk = () => {
   return (
     <div style={{ marginTop: "30px" }}>
-      <h2>Approvde Help Desks</h2>
+      <h2>Approved Help Desks</h2>
       <div
         style={{
           display: "flex",

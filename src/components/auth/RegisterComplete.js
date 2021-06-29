@@ -5,6 +5,7 @@ import { auth } from "../../firebase";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useHistory } from "react-router-dom";
+import {db } from '../../firebase'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,6 +19,8 @@ const useStyles = makeStyles((theme) => ({
 const RegisterComplete = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState("");
+  const [fullName, setFullName] = useState('')
+  const [phone, setPhone] = useState('')
 
   let history = useHistory();
 
@@ -55,6 +58,12 @@ const RegisterComplete = () => {
         await user.updatePassword(password);
         // const idTokenResult = await user.getIdTokenResult;
 
+        db.collection("users").add({
+      fullName,
+      email,
+      phone,
+    });
+
         history.push("/");
       }
     } catch (error) {
@@ -83,7 +92,7 @@ const RegisterComplete = () => {
           backgroundColor: "white",
           margin: "10%",
           width: "340px",
-          height: "220px",
+          height: "390px",
           borderRadius: "6px",
         }}
       >
@@ -111,8 +120,30 @@ const RegisterComplete = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+          <TextField
+            required
+            type="text"
+            id="outlined-required"
+            label="Full Name"
+            placeholder="Enter Your Full Name"
+            variant="outlined"
+            value={fullName}
+            onChange={(e) => setFullName(e.target.value)}
+          />
+          <TextField
+            required
+            type="number"
+            id="outlined-required"
+            label="phone"
+            placeholder="Enter Your Number"
+            variant="outlined"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
         </div>
-        <button>Sign Up</button>
+        <button className="bg-blue-600 text-white  py-3 px-6 rounded  font-semibold">
+          Sign Up
+        </button>
       </form>
     </div>
   );

@@ -14,7 +14,7 @@ export const dataSource = [
     slno: "2",
     image: "",
     name: "Sri Ashoke Kr. Ray",
-    position: "Secretary",
+    position: "Trustee",
     qualification: "M.Com, CAIIB, DCA",
     profession: "Retd. AGM, RBI",
     address: "	Dhaleswar",

@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroLeft.css";
 import { Button } from "antd";
+import { Link } from 'react-router-dom'
 
 const HeroLeft = () => {
   return (
@@ -24,7 +25,9 @@ const HeroLeft = () => {
       </div>
       <div className="heroLeft__btn">
         <Button size="large" style={{ borderRadius: "8px" }}>
+          <Link to="/instructions">
           Know More
+          </Link>
         </Button>
         <Button
           size="large"
@@ -36,7 +39,10 @@ const HeroLeft = () => {
             border: "none",
           }}
         >
+          <Link to="/programs">
+
           Browse All Course
+          </Link>
         </Button>
       </div>
     </div>

@@ -28,18 +28,18 @@
 
 .extra__card {
   background: rgba(90, 92, 133, 0.2);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
   height: 200px;
   width: 320px;
   border-radius: 8px;
 }
 
-.extra__card:hover {
+/* .extra__card:hover {
   transform: scale(1.1);
   transition: ease-in 25ms;
   box-shadow: 0 8px 20px 0px rgba(211, 211, 211, 0.329);
-}
+} */
 
 .hero--fadedBottom {
   height: 10rem;
@@ -92,9 +92,9 @@
     text-align: left;
   }
 
-  .extra__card:hover {
+  /* .extra__card:hover {
     display: none;
-  }
+  } */
 
   .extra__card_title {
     line-height: 35px;

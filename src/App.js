@@ -8,7 +8,7 @@ import MainMenu from "./components/menu/MainMenu";
 import FooterMain from "./components/footer/FooterMain";
 import SubFooter from "./components/footer/SubFooter";
 import ApplyNow from "./pages/ApplyNow";
-import Instructions from "./pages/Instructions";
+import InstructionNew from "./pages/InstructionNew";
 import DiscountFee from "./pages/DiscountFee";
 import HelpDesk from "./pages/HelpDesk";
 import NoticeDetail from "./components/announcement/notice/NoticeDetail";
@@ -17,12 +17,13 @@ import Register from "./components/auth/Register";
 import RegisterComplete from "./components/auth/RegisterComplete";
 
 import { auth } from "./firebase";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Login from "./pages/Login";
 import ForgotPassword from "./components/auth/ForgotPassword";
 import NewsEventDetail from "./components/announcement/newsEvent/NewsEventDetail";
 import AllNewsEvent from "./pages/AllNewsEvent";
 import ContactUs from "./pages/ContactUs";
+import Prospectus from './pages/Prospectus'
 
 const App = () => {
   const dispatch = useDispatch();
@@ -46,6 +47,8 @@ const App = () => {
     return () => unsubscribe();
   }, [dispatch]);
 
+  const user = useSelector((state) => state.user);
+
   return (
     // <Router>
     <div className="App">
@@ -55,11 +58,12 @@ const App = () => {
         <Route path="/apply" exact>
           <ApplyNow />
         </Route>
+
         <Route path="/programs">
           <Programs />
         </Route>
         <Route path="/instructions">
-          <Instructions />
+          <InstructionNew />
         </Route>
         <Route path="/discountfee">
           <DiscountFee />
@@ -71,6 +75,7 @@ const App = () => {
           <About />
         </Route>
         <Route path="/contact" component={ContactUs} />
+        <Route path="/prospectus" component={Prospectus} />
         <Route path="/noticedetail/:id/" component={NoticeDetail} />
         <Route path="/newsevent/:id/" component={NewsEventDetail} />
         <Route path="/allnewsevent" component={AllNewsEvent} />

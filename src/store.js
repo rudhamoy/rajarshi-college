@@ -7,10 +7,16 @@ import {
   noticeListReducer,
 } from "./reducers/noticeReducers";
 import { userReducer } from "./reducers/userReducers";
+import {
+  eventNewsListReducer,
+  eventNewsDetailsReducer,
+} from "./reducers/eventNewsReducers";
 
 const reducer = combineReducers({
   noticeList: noticeListReducer,
   noticeDetail: noticeDetailReducer,
+  eventNewsList: eventNewsListReducer,
+  eventNewsDetails: eventNewsDetailsReducer,
   user: userReducer,
 });
 

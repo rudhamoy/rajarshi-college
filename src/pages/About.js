@@ -1,7 +1,8 @@
 import React from "react";
 import { Tabs } from "antd";
 import Trustee from "../components/about/Trustee";
-import Governing from "../components/about/Governing";
+import TrusteeMobile from "../components/about/TrusteeMobile";
+// import Governing from "../components/about/Governing";
 import FacultyMobile from "../components/about/FacultyMobile";
 
 const { TabPane } = Tabs;
@@ -17,13 +18,16 @@ const About = () => {
         }}
       >
         <Tabs defaultActiveKey="1" centered>
-          <TabPane tab="Trustee Board" key="1">
+          {/* <TabPane tab="Trustee Board" key="1">
             <Trustee />
-          </TabPane>
-          <TabPane tab="Governing Body" key="2">
+          </TabPane> */}
+          {/* <TabPane tab="Governing Body" key="2">
             <Governing />
+          </TabPane> */}
+          <TabPane tab="Trustee" key="1">
+            <TrusteeMobile />
           </TabPane>
-          <TabPane tab="Faculty Member" key="3">
+          <TabPane tab="Faculty Member" key="2">
             <FacultyMobile />
           </TabPane>
         </Tabs>

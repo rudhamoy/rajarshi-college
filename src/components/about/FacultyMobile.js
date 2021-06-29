@@ -77,7 +77,7 @@ J.K.Mittal Award(National Conference on Surfactents, Emilsions and Biocolloids)/
     "/images/pchaky.jpg",
     "English",
     "Dr.PrasantaChakraborty",
-    "Assistant Professor",
+    "Associate Professor",
     "PhD on Australian literature Assam University (2002), Retd.Professor, ICFAI University, Tripura. 34 years working in Govt. Colleges of Tripura",
     ``
   ),
@@ -86,7 +86,7 @@ J.K.Mittal Award(National Conference on Surfactents, Emilsions and Biocolloids)/
     "/images/mrahaman.jpg",
     "History",
     "Dr. Md. Mojahid Rahaman ",
-    "Assistant Professor",
+    "Associate Professor",
     "MA in Modern History, Teaching Experience: 37 years in different Degree College in Tripura, Retd. as Principal (I/C), Ramthakur College, Agartala, Guest Lecturer, IGNOU, TU. Guest Lecturer, Distance Education, Ramthakur College, Agartala. Author of the Book “Tripura in the Liberation Movment of Bangladesh”, Akshansha Publishing House, New Delhi, Cultural Activists, attached with varoius cultural organizations, Agartala",
     ``
   ),
@@ -104,7 +104,7 @@ J.K.Mittal Award(National Conference on Surfactents, Emilsions and Biocolloids)/
     "/images/dde.jpg",
     "Mathematics",
     "Dr. Dipankar De ",
-    "Assistant Professor",
+    "Associate Professor",
     "M.Sc., Ph.D. in Mathematics Retd. Associate Professor of Govt. Degree College Visiting Lecturer (4 yrs, in appl. Math Deptt., MBB University)",
     ``
   ),
@@ -133,7 +133,7 @@ Best presentation award (Physics Academy of North East) /2011`
     "/images/tdas.jpg",
     "Political Science",
     "Mr. Tapas Dasgupta ",
-    "Assistant Professor",
+    "Associate Professor",
     "M.A in Political Science, University of Calcutta, India. Teaching Experience in Degree Colleges around 35 years Teaching Experience in Post graduate level: Guest Lecturer T.U., Counselor at PG course , Distance Education, Counselor at IGNOU PG course ",
     ``
   ),

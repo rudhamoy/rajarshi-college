@@ -32,7 +32,7 @@ const defaultData = {
   electiveChoice1: "",
   electiveChoice2: "",
   electiveChoice3: "",
-  image: "https://image.pngaaa.com/189/734189-middle.png",
+  image: "",
   subject: "",
   subject2: "",
   subject3: "",

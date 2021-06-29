@@ -12,6 +12,7 @@ const bscHons = programList.filter((bscs) => bscs.category === "bschons");
 const bscPass = programList.filter((bscs) => bscs.category === "bscpass");
 const baHons = programList.filter((ba) => ba.category === "bahons");
 const baPass = programList.filter((ba) => ba.category === "bapass");
+const skills = programList.filter((skill) => skill.category === "skills");
 
 const Programs = () => {
   return (
@@ -69,10 +70,10 @@ const Programs = () => {
           </TabPane>
           <TabPane tab="Skill Course" key="5">
             <ProgramContainer link={`/`}>
-              {programList.map((bsc) => (
+              {skills.map((skill) => (
                 <div>
                   <h2 style={{ color: "white", fontWeight: "370" }}>
-                    {bsc.title}
+                    {skill.title}
                   </h2>
                 </div>
               ))}

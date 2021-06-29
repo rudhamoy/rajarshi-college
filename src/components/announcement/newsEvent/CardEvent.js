@@ -4,22 +4,19 @@ import "./CardEvent.css";
 
 const { Meta } = Card;
 
-const CardEvent = ({ title, description, image }) => (
-  <Card
-    className="cardEvent__container"
-    cover={
-      <img
-        alt="example"
-        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+const CardEvent = ({ title, description, image }) => {
+  return (
+    <Card
+      className="cardEvent__container"
+      cover={<img className="h-52 object-cover" alt="example" src={image} />}
+    >
+      <Meta
+        style={{ cursor: "pointer" }}
+        title={title}
+        description={description}
       />
-    }
-  >
-    <Meta
-      style={{ cursor: "pointer" }}
-      title={title}
-      description={description}
-    />
-  </Card>
-);
+    </Card>
+  );
+};
 
 export default CardEvent;

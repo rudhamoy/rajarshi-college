@@ -22,7 +22,9 @@ const Register = () => {
     e.preventDefault();
 
     const config = {
-      url: process.env.REACT_APP_REGISTER_REDIRECT_URL,
+      // url: "http://localhost:3000/register/complete",
+      url: "https://rajarshicollege.co.in/register/complete",
+      // url: process.env.REACT_APP_REGISTER_REDIRECT_URL,
       handleCodeInApp: true,
     };
 
@@ -34,7 +36,7 @@ const Register = () => {
 
     window.localStorage.setItem("emailForRegistration", email);
 
-    setEmail();
+    setEmail("");
   };
 
   return (
@@ -76,7 +78,12 @@ const Register = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <button>Register</button>
+        <button
+          onClick={handleSubmit}
+          className="bg-blue-600 text-white  py-3 px-6 rounded  font-semibold"
+        >
+          Register
+        </button>
       </form>
     </div>
   );

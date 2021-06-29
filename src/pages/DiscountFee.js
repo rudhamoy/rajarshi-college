@@ -8,7 +8,7 @@ const DiscountFee = () => {
     <div style={{ backgroundColor: "#ececec" }}>
       <div className="discountFee">
         <h1>
-          DISCOUNTED FEE STRUCTURE HENCEFORTH FOR ADMISSION IN DIFFERENT COURSES
+          FEE STRUCTURE HENCEFORTH FOR ADMISSION IN DIFFERENT COURSES
           FOR GENERAL DEGREE FOR THE FIRST YEAR
         </h1>
         <div className="discountFee__tableContainer">
@@ -20,9 +20,9 @@ const DiscountFee = () => {
           />
         </div>
         <h4>
-          Fee for 2nd and 3rd year as given in website of the college will also
-          be discounted after review of number students at the beginning of 2nd
-          and 3rd year.
+        In addition to the semester fees, Applicant is required to pay Rs. 5000/- towards admission fee to confirm the offer letter.
+
+<div align="center"><strong>*Fees once paid are Non Refundable *</strong></div>
         </h4>
       </div>
     </div>

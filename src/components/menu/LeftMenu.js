@@ -47,7 +47,7 @@ const LeftMenu = ({ handleClick, current }) => {
       </Menu.Item>
       <Menu.Item key="discounted">
         <Link to="/discountfee" style={{ color: "white" }}>
-          Discounted Fee
+         Fee Structure
         </Link>
       </Menu.Item>
       <Menu.Item key="helpdesk">

@@ -1,9 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Button } from "@material-ui/core";
+import ImageUploader from "react-images-upload";
 
 const ImageUpload = ({ formData, setForm, navigation }) => {
   const { image } = formData;
-  const { images, setImages } = useState([]);
+
+  // const imageHandler = (e) => {
+  //   if (e.target.files && e.target.files[0]) {
+  //     const reader = new FileReader();
+
+  //     reader.onload = function (e) {
+  //       setForm({
+  //         value: e.target.result,
+  //       });
+  //     };
+  //     reader.readAsDataURL(e.target.files[0]);
+  //   }
+  // };
 
   return (
     <div style={{ marginBottom: "20px" }}>
@@ -12,7 +25,7 @@ const ImageUpload = ({ formData, setForm, navigation }) => {
         <h3>Image Your Upload</h3>
         <img
           src={
-            !images ? "https://image.pngaaa.com/189/734189-middle.png" : images
+            !image ? "https://image.pngaaa.com/189/734189-middle.png" : image
           }
           alt="profile"
           style={{ width: "90px" }}

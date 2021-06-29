@@ -45,10 +45,10 @@ const MainHero = () => {
         </div>
         <div className="extra__card">
           <p className="extra__card_title" style={{ color: "#73bef2" }}>
-            DISCOUNTED FEE STRUCTURE
+            FEE STRUCTURE
           </p>
           <p className="extra__card__deatils" style={{ color: "lightgrey" }}>
-            Discounted fee structure henceforth for admission in different
+            Fee structure henceforth for admission in different
             course for general degree for the first year
           </p>
           <div className="extra__card__action">

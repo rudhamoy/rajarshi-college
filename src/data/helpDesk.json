@@ -12,91 +12,71 @@
     {
         "id": "1",
         "helpDesk": "2",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
+        "name": "Suman Ch. Das",
+        "establishment": "Eduwise",
+        "address": "Ganaraj Chomuhani, Near Petrol Pump, Agartala, Tripura",
+        "mobile": "88374618, 9774490511",
+        "email": "das.suman2011@rediffmail.com",
+        "officeHours": "10:00 am to 6:00 pm"
     },
     {
         "id": "2",
         "helpDesk": "3",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
+        "name": "Kausik Bhowmik",
+        "establishment": "Careerscope",
+        "address": "Dhaleswar, Joyguru, Near ashirbad Gas Agency, Agartala, 799007",
+        "mobile": "8837089207",
+        "email": "kausik.2020in@gmail.com",
+        "officeHours": "10:00 am to 6:00 pm"
     },
     {
         "id": "3",
         "helpDesk": "4",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
+        "name": "Amit Debnath",
+        "establishment": "Build Angel Career Maker",
+        "address": "Ranir Bazar, Tripura(West)",
+        "mobile": "9862797603",
+        "email": "buildangle.career@gmail.com",
+        "officeHours": "10:00 am to 5:30 pm"
     },
     {
         "id": "4",
         "helpDesk": "5",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
+        "name": "Mrs. Tara Banerjee",
+        "establishment": "Rabindranath Foundation",
+        "address": "Rabindralaya, Jagnwar Sarani, Thana Road, P.O Dharmanagar, Tripura(N), Pin-799250",
+        "mobile": "9862422195",
+        "email": "rabindranathfoundation@rediffmail.com",
+        "officeHours": "7:00 am to 7:00 pm"
     },
     {
         "id": "5",
         "helpDesk": "6",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
+        "name": "Mr. Gobinda Chakraborty",
+        "establishment": "Vidyasagar Academy",
+        "address": "Santir Bazar, South Tripura",
+        "mobile": "9330622287",
+        "email": "vidyasagaracademy2@gmail.com",
         "officeHours": "10:00 am to 5:00 pm"
     },
     {
         "id": "6",
         "helpDesk": "7",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
+        "name": "Mr. Partha Bijoy Bed",
+        "establishment": "Academy of computer systems",
+        "address": "Ward 11, Ratiabari, Kumarghat, Unakoti, Tripura, Pin: 799264",
+        "mobile": "9612150466",
+        "email": "skillpbd@gmail.com",
+        "officeHours": "09:30 am to 5:30 pm"
     },
     {
         "id": "7",
         "helpDesk": "8",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
-    },
-    {
-        "id": "8",
-        "helpDesk": "9",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
-    },
-    {
-        "id": "9",
-        "helpDesk": "10",
-        "name": "Amit Roy",
-        "establishment": "Maya Consultancy",
-        "address": "Near Tripura University,Suryamani Nagar, Agartala, West Tripura, 799022",
-        "mobile": "8837095582",
-        "email": "mayagraphics.2@gmail.com",
-        "officeHours": "10:00 am to 5:00 pm"
+        "name": "Nepal Rudrapal",
+        "establishment": "JC Institute",
+        "address": "Tuichindrai, Teliamura, Khowai tripura, Pin.799205",
+        "mobile": "5875214160/7005282482",
+        "email": "jci.teliamura@gmail.com",
+        "officeHours": "10:00 a.m TO 8:00 p.m"
     }
 ]

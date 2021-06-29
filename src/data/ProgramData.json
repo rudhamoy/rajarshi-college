@@ -94,5 +94,39 @@
         "title": "Philosophy",
         "category": "bapass",
         "detail": "Add some snippet of details here"
+    },
+
+    {
+        "id": "16",
+        "title": "Beauty and Wellness",
+        "category": "skills",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "17",
+        "title": "Banking Finance and Insurance",
+        "category": "skills",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "18",
+        "title": "Media and Entertainment",
+        "category": "skills",
+        "detail": "Add some snippet of details here"
+    },
+
+    {
+        "id": "19",
+        "title": "Retail",
+        "category": "skills",
+        "detail": "Add some snippet of details here"
+    },
+    {
+        "id": "20",
+        "title": "Rubber",
+        "category": "skills",
+        "detail": "Add some snippet of details here"
     }
+
+    
 ]

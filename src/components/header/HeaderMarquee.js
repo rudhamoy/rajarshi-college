@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 const HeaderMarquee = () => {
   const [noticeFeat, setNoticeFeat] = useState([]);
 
-  const token = "1ec938106f39d6172fb57e36fa23c0d0432c40f6";
+  // const token = "1ec938106f39d6172fb57e36fa23c0d0432c40f6";
 
   useEffect(() => {
     axios
-      .get("https://nicksdb.pythonanywhere.com/api/notice_list/", {
+      .get("https://rajarshi-college.herokuapp.com/api/notice_list/", {
         headers: {
-          Authorization: `Token ${token}`,
+          Authorization: `Token ${process.env.REACT_APP_AUTH_TOKEN}`,
         },
       })
       .then((res) => {

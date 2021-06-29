@@ -28,7 +28,7 @@ const Notice = () => {
               <List.Item style={{ borderBottom: "0.5px solid lightgray" }}>
                 <List.Item.Meta
                   title={item.title}
-                  description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+                  description={item.description}
                 />
               </List.Item>
             </Link>

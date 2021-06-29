@@ -33,7 +33,9 @@ const Information = () => {
 
       <div className="info__upper" style={{ backgroundColor: "#132e49" }}>
         <h1>Make Your Success a Priority</h1>
-        <h2>Begin your Educational Journey Today.</h2>
+        <h2 style={{ marginTop: "15px", marginBottom: "10px" }}>
+          Begin your Educational Journey Today.
+        </h2>
         <div className="info__button">
           <Button ghost block size="large" style={{ borderRadius: "8px" }}>
             <Link to="/apply" style={{ color: "white" }}>

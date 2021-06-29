@@ -3,43 +3,33 @@ import "./NewsEvent.css";
 import { Carousel } from "antd";
 import CardEvent from "./CardEvent";
 import { CaretRightOutlined } from "@ant-design/icons";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import { listEventNews } from "../../../actions/eventNewsActions";
 
 const NewsEvent = () => {
-  const [eventLists, setEventLists] = useState([]);
+  const dispatch = useDispatch();
+  const eventNewsList = useSelector((state) => state.eventNewsList);
+  const { eventNews } = eventNewsList;
 
   useEffect(() => {
-    // axios
-    //   .get("https://nicksdb.pythonanywhere.com/api/event_list/", {
-    //     headers: {
-    //       Authorization: `Token ${token}`,
-    //     },
-    //   })
-    //   .then((res) => {
-    //     const data = res.data;
-    //     setEventLists(data);
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
+    dispatch(listEventNews());
+    // const fetchData = async () => {
+    //   const { data } = await axios.get(
+    //     "https://rajarshi-college.herokuapp.com/api/event_list/",
+    //     {
+    //       headers: {
+    //         Authorization: `Token ${process.env.REACT_APP_AUTH_TOKEN}`,
+    //       },
+    //     }
+    //   );
 
-    const fetchData = async () => {
-      const token = "1ec938106f39d6172fb57e36fa23c0d0432c40f6";
-      const { data } = await axios.get(
-        "https://nicksdb.pythonanywhere.com/api/event_list/",
-        {
-          headers: {
-            Authorization: `Token ${token}`,
-          },
-        }
-      );
+    //   setEventLists(data);
+    //   console.log(eventLists);
+    // };
 
-      setEventLists(data);
-    };
-
-    return fetchData();
-  }, []);
+    // return fetchData();
+  }, [dispatch]);
 
   return (
     <div className="news__container">
@@ -55,13 +45,20 @@ const NewsEvent = () => {
 
       <div className="news__content">
         <Carousel className="newsEvent__carousel" autoplay dots={false}>
-          {eventLists.map((news) => (
-            <Link key={news.id} to={`/newsevent/${news.id}`}>
-              <div key={news.id}>
-                <CardEvent title={news.title} description={news.content} />
-              </div>
-            </Link>
-          ))}
+          {eventNews.map((news) => {
+            return (
+              <Link key={news.id} to={`/newsevent/${news.id}`}>
+                <div key={news.id}>
+                  <CardEvent
+                    // news
+                    image={news.featured_image}
+                    title={news.title}
+                    description={news.content}
+                  />
+                </div>
+              </Link>
+            );
+          })}
         </Carousel>
       </div>
     </div>
