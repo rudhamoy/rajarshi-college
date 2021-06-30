@@ -145,14 +145,14 @@ const MainForm = () => {
 
   const onSubmit = async (data) => {
     // showRazorpay();
-    // db.collection("registration").add({
-    //   data,
-    //   specify,
-    //   helpdesk,
-    //   profile: profilepic,
-    //   aadhaar: aadhaarpic,
-    //   marksheet: marksheetpic,
-    // });
+    db.collection("registration").add({
+      data,
+      specify,
+      helpdesk,
+      profile: profilepic,
+      aadhaar: aadhaarpic,
+      marksheet: marksheetpic,
+    });
 
     let formField = {
       firstName: data.firstName,
@@ -212,22 +212,24 @@ const MainForm = () => {
       board12: data.board12,
       agreecollege: data.agreecollege,
       agreepay: data.agreepay,
+      helpdesk: helpdesk,
+      specify: specify,
       gender: data.gender,
       aadhaar_img: aadhaarpic,
       marksheet_img: marksheetpic,
       profile_img: profilepic,
     };
 
-    await axios({
-      method: "post",
-      url: "https://paymentraj.herokuapp.com/api/application/",
-      data: formField,
-      // headers: {
-      //   Authorization: `Token ${token}`,
-      // },
-    }).then((response) => {
-      console.log(response);
-    });
+    // await axios({
+    //   method: "post",
+    //   url: "https://paymentraj.herokuapp.com/api/application/",
+    //   data: formField,
+    //   // headers: {
+    //   //   Authorization: `Token ${token}`,
+    //   // },
+    // }).then((response) => {
+    //   console.log(response);
+    // });
     // .catch((error) => {
     //   console.log(error);
     // });

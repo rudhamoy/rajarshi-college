@@ -146,7 +146,7 @@ const rows = [
   createData(
     11,
     "/images/mitali.jpeg",
-    "Smt Mitali Chakraborty",
+    "Mr.Biswajit Chakraborty",
     "Trustee",
     "B.E.C.E",
     "",

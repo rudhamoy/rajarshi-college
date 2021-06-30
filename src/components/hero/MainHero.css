@@ -15,8 +15,8 @@
 
 .mainHero__right {
   flex: 0.45;
-  margin-top: 180px;
-  margin-left: 50px;
+  /* margin-top: 180px; */
+  margin-left: 2%;
 }
 
 .mainHero__extra {
@@ -77,6 +77,13 @@
 @media screen and (max-width: 767px) {
   .mainHero__left {
     flex: unset;
+  }
+  .mainHero__right {
+    margin-top: "80px";
+  }
+
+  .mainHero__container {
+    flex-direction: column;
   }
 
   .mainHero__extra {

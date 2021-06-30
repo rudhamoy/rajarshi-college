@@ -1,11 +1,13 @@
 .heroCarousel {
-  width: 100vw;
+  width: 70vw;
   height: 80vh;
+  /* width: 100vw;
+  height: 80vh; */
 }
 
 .heroCarousel__image {
   height: 550px;
-  width: 100vw;
+  width: 100%;
 }
 
 .heroCarousel--fadedBottom {
@@ -23,9 +25,10 @@
 @media screen and (max-width: 767px) {
   .heroCarousel {
     height: 40vh;
+    width: 100vw;
   }
 
   .heroCarousel__image {
-    height: 380px;
+    height: 300px;
   }
 }
